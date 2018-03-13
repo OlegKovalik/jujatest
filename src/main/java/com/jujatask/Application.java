@@ -21,8 +21,6 @@ public class Application implements CommandLineRunner {
 
     @Override
     public void run(String... strings) throws Exception {
-//        userService.save(User.builder().login("Oleg").password("qwerty").firstName("Oleg").lastName("Kovalyk").build());
-//        userService.save(User.builder().login("Danil").password("asdfg").firstName("Danil").lastName("Kuznetsov").build());
 
     }
 }

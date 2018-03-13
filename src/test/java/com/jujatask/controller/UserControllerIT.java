@@ -80,7 +80,7 @@ public class UserControllerIT {
         });
 
         Response<User> response = responseEtity.getBody();
-     
+
         assertThat(response.getSuccess(), is(1));
         assertThat(response.getData().getLogin(), is("test2"));
     }
